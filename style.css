@@ -215,7 +215,7 @@ font-family:popin;
   color: #fff;
  }
  .input-group {
-  max-width: 200px; /* Set max width */
+  max-width: 200px; 
   left: 50px;
 }
 /* Banner/ */
@@ -388,12 +388,232 @@ height: 220px;
   left: 380px;
   color: #fff;
 }
-#carouselExample{
+.swipe{
   position: absolute;
-  top: 550%;
+  top: 530%;
   width: 80%;
-  height: 400px;
+  height: 450px;
   left: 130px;
+  background-color: #f9efef;
+  text-align: center;
+  padding-top: 50px;
+}
+ .swipe #img{ 
+  position: absolute;
+  left: 430px;
+  border-radius: 100%;
+}
+.swipe h3{
+  position: relative;
+top: 100px;
+color: #0d6efd;
+}
+.swipe p{
+  position: relative;
+top: 100px;
+padding-left: 50px;
+padding-right: 50px;
+}
+.swipe #button{
+  position: absolute;
+  top: 85%;
+  margin-left: 420px;
+  
+}
+#button #b1{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: xx-large;
+  background-color: #fff;
+border: none;
+}
+#button #b2{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: xx-large;
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+}
+/* media */
+.media{
+  position: absolute;
+  top: 620%;
+  left: 120px;
+}
+.media .card{
+  display: inline-block;
+  margin: 10px;
+ }
+ .card #bu{
+  position: absolute;
+ top: 100px;
+ left: 80px;
+ }
+ .card .btn {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: #0d6efd;
+  color: #fff;
+  left: 75px;
+  top: 10px;
+  
+ }
+.card:hover{
 
+  cursor: grab;
+}
+.media h2{
+  text-align: center;
+  padding-bottom: 20px;
 }
 
+/* News */
+.news{
+
+    position: absolute;
+    top: 775%;
+    left: 120px;
+  }
+  .news .card{
+    display: inline-block;
+    margin: 10px;
+    background-color: #f9efef;
+    
+   }
+   .card .btn1{
+
+    top: 240px;
+    position: absolute;
+  width: 130px;
+  height: 25px;
+  background-color: yellowgreen;
+  color: #fff;
+  left: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+   }
+   .news .card .card-text{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+   }
+   .news .card .card-body{
+    height: 200px;
+   }
+.news .card #arr{
+  position: absolute;
+  top: 130px;
+  background-color: #fff;
+  left: 10px;
+}
+
+/* form */
+.form{
+  position: absolute;
+ top: 870%;
+ background-color: #0d6efd;
+ width:80%;
+ left:130px;
+ color: #fff;
+}
+.form input{
+position: relative;
+width: 400px;
+height: 60px;
+margin: 10px;
+background-color: transparent;
+border: 1px solid white;
+border-radius: 5px;
+color: #fff;
+}
+.form legend{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form #buto{
+  background-color: #fff;
+color: #000;
+font-weight: bold;
+}
+.form input {
+  color: #fff;
+}
+ 
+/* foooter */
+.footer{
+  position: absolute;
+  top: 930%;
+  background-color: #5c4226bf;
+  width: 100%;
+  height: 600px;
+}
+.footer #ft{
+  position: relative;
+  left: 0px;
+}
+.footer #fb{
+  float: left;
+  left: 190px;
+  padding-top: 35px;
+  width: 40px;
+  position: relative;
+  top: 230px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#x{
+  width: 60px;
+  float: left;
+  left: 185px;
+  padding-top: 35px;
+ 
+  position: relative;
+  top: 230px;
+  border-radius: 5px;
+}
+.footer{
+  display: flex;
+}
+.footer ul{
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  color: #fff;
+
+}
+ul li{
+  list-style-type: none;
+  padding: 10px;
+}
+ #top{
+  font-size: large;
+  font-weight: bold;
+}
+.footer div{
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  color: #fff;
+  left: 40px;
+}
+hr{
+  position: relative;
+  top: 60px;
+}
+#gold{
+  position: relative;
+  top: 90px;
+  left: 500px;
+}
+#p{
+  text-align: center;
+  position: relative;
+  top: 120px;
+  left: 30px;
+}
