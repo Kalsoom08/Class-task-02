@@ -1,0 +1,399 @@
+body {
+    font-family: sans-serif;
+   
+  }
+/* Nav */
+#nav1{
+    background-color: rgb(248, 245, 240);
+   display: flex;
+    padding-left: 50px;
+}
+#nav1 a{
+margin-left: 15px;
+margin-right: 15px;
+text-decoration: none;
+color: #000;
+}
+#canada{padding-top: 18px;
+padding-left: 10px;}
+#canada a{
+   margin-left: 0%;
+   margin-right: 0%;
+   font-weight: 100;
+   }
+#list{
+margin-left: 150px;
+margin-bottom: 5px;
+width: 90px;
+height: 20px;
+}
+#list option{
+    padding:8px;
+}
+/* Nav 2 */
+.menu-bar {
+box-shadow:2px 2px 2px #f9efef;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 5%; */
+    position: relative;
+    border: 1px solid oldlace;
+ 
+  }
+  .menu-bar ul {
+    margin: 0%;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+  }
+   .menu-bar ul li {
+    padding: 2px 25px;
+    position: relative;
+  }
+  .menu-bar ul li a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+   
+  }
+   .menu-bar ul li a:hover {
+    border-bottom: 2px solid greenyellow;
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+   
+   }
+   .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+   .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 130px;
+    padding: 10px;
+    
+  }
+  .dropdown-menu a:hover{
+    background-color: yellowgreen;
+    color: #fff;
+    text-decoration: none;
+  }
+  .menu-bar #a{
+    background-color: rgb(27, 114, 243);
+    color: #fff;
+    margin-right: 10px;
+border: 1px solid yellowgreen;
+border-radius: 5px;
+  }
+  .menu-bar #b{
+    background-color: yellowgreen;
+    color: #fff; 
+    border: 1px solid yellowgreen;
+margin-right: 5px;
+border-radius: 5px;
+  }
+  .menu-bar button {
+    transition: transform 0.3s ease; 
+  }
+  .menu-bar button:hover{
+    transform: scale(1.1);
+    transition-delay: ;
+  }
+  @font-face {
+    font-family: popin;
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+}
+.main{
+font-family:popin;
+}
+ .main img{
+  display: block;
+    position: absolute;
+    width: 400px;
+    right: 160px;
+    top: 150px;
+    
+}
+.main h1{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    font-weight: bold;
+}
+.main h1 b{
+    color: yellowgreen;
+}
+.main h3{
+    position: absolute;
+    left: 50px;
+    top:320px;
+   font-family:  sans-serif;
+   font-weight: bold;
+
+}
+.main h3 b{
+    color: rgb(27, 114, 243);
+}
+  .main p{
+     left: 50px;
+    position: relative;
+    top:300px;
+  }
+#ex{
+    position: relative;
+    top:300px; 
+    left: 50px; 
+    height: 50px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#ex a{
+    color: #000;
+    text-decoration: none;
+}
+/* Buttons */
+.form-container{
+  background-color: rgba(252, 252, 172, 0.384);
+  position: absolute;
+  top: 700px;
+  left: 150px;
+  width: 80%;
+  height: 230px;
+  border-radius: 5px;
+}
+.form-container button{
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 270px;
+  padding-right: 20px;
+  border: none;
+  background-color: #fff;
+  margin-left: 10px;
+  
+ }
+.form-container #button{
+  position: relative;
+  top:60px;
+
+}
+.form-container #fam {
+  position: relative;
+  top:60px;
+  background-color: rgb(101, 100, 100);
+  color: #fff;
+  
+}
+.form-container #blood{
+  position: relative;
+  top:60px;
+  
+}
+
+ .input-group{
+  position: relative;
+  top: 50px;
+ }
+ .input-group button{
+  position: relative;
+  left: 0px;
+  background-color: rgb(101, 100, 100);
+  color: #fff;
+ }
+ 
+ #donate{
+  position: relative;
+  top: 20px;
+  background-color: yellowgreen;
+  color: #fff;
+ }
+ .input-group {
+  max-width: 200px; /* Set max width */
+  left: 50px;
+}
+/* Banner/ */
+.carousel-image {
+  position: absolute;
+  height: 500px;
+  width: 80%;
+  top: 165%;
+  border-radius: 4px;
+  left: 150px;
+}
+/* Doing */
+.icons{
+  position: absolute;
+  top: 260%;
+  left: 120px;
+}
+.icons div{
+  display: inline-block;
+  border:none;
+  width: 150px;
+  text-align: center;
+  margin-right: 20px;
+  transition: transform 0.4s ease;
+  background-color:rgba(252, 252, 172, 0.384) ;
+}
+.icons div:hover{
+  transform: scale(1.1);
+   
+}
+.icons h1{
+ position: relative;
+ margin-left: 330px;
+bottom: 40px;
+}
+/* cards */
+.cards {
+  position: absolute;
+  top: 300%;
+  left: 160px;
+}
+
+.cards .card {
+  display: inline-block;
+  transition: transform 0.7s ease-out;
+  height: 100px;
+}
+.cards .card :hover{ transform: scale(1.1);}
+
+.bottom-left{
+  position: absolute;
+  top: 150px;
+ color: #f9efef;
+ font-weight: bold;
+ opacity: 1;
+ background-color: #000;
+ font-size: large;
+ width: 100px;
+ left: 30px;
+
+}
+.card .card-img-top{
+height: 220px;
+  
+}
+.card .btn {
+  opacity: 1;
+  position: relative;
+  width: 260px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+
+}
+.card .btn:hover{
+  transform: none;
+}
+
+/* welfare */
+.welfare{
+  position: absolute;
+  top: 350%;
+}
+.welfare .welf{
+  position: absolute;
+  left: 140px;
+  width: 500px;
+  height: 400px;
+}
+.welfare div{
+  position: absolute;
+  left: 700px;
+  padding-top: 15px;
+}
+.welfare div h4{
+  color: rgb(48, 114, 248);
+}
+.welfare div p{
+  width: 400px;
+  font-size: small;
+}
+ 
+/* Counter */
+.counter{
+  position: absolute;
+  top: 440%;
+  background-color: #0d6efd;
+  width: 80%;
+  height: 400px;
+  left: 130px;
+  display: flexbox;
+ }
+ .counter figure{
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  display: flex;
+
+}
+.counter #img{
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  
+}
+.counter #img2{
+  position: absolute;
+  left: 30%;
+  top: 17px;
+  
+}
+.counter #img3{
+  position: absolute;
+  left: 55%;
+  top: 17px;
+  
+}
+.counter #img4{
+  position: absolute;
+  left: 80%;
+  top: 17px;
+  
+}
+#hh{
+  position: absolute;
+  top: 130px;
+  text-align: center;
+  color: #fff;
+  left: 20px;
+}
+#hh1
+{
+  position: absolute;
+  top: 130px;
+  text-align: center; 
+  left: 145px;
+  color: #fff;
+}
+#hh2{
+  position: absolute;
+  top: 130px;
+  text-align: center;
+  left: 260px;
+  color: #fff;
+}
+#hh3{
+  position: absolute;
+  top: 130px;
+  text-align: center;
+  left: 380px;
+  color: #fff;
+}
+#carouselExample{
+  position: absolute;
+  top: 550%;
+  width: 80%;
+  height: 400px;
+  left: 130px;
+
+}
+
