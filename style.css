@@ -274,21 +274,22 @@ bottom: 40px;
  background-color: #000;
  font-size: large;
  width: 100px;
- left: 30px;
+ left: 10px;
 
 }
 .card .card-img-top{
 height: 220px;
   
 }
-.card .btn {
+.card .bottom-left .btn {
   opacity: 1;
-  position: relative;
+  position: absolute;
   width: 260px;
-  background-color: yellowgreen;
+  background-color: rgb(169, 224, 58);
   color: #fff;
   border: none;
-
+  top: 30px;
+left: 02px;
 }
 .card .btn:hover{
   transform: none;
@@ -328,6 +329,12 @@ height: 220px;
   left: 130px;
   display: flexbox;
  }
+ .counter figure div{
+  justify-content: space-between;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 10px;
+ }
  .counter figure{
   position: absolute;
   top: 90px;
@@ -337,13 +344,13 @@ height: 220px;
 }
 .counter #img{
   position: absolute;
-  left: 15px;
+  left: 50px;
   top: 25px;
   
 }
 .counter #img2{
   position: absolute;
-  left: 30%;
+  left: 31%;
   top: 17px;
   
 }
@@ -371,21 +378,21 @@ height: 220px;
   position: absolute;
   top: 130px;
   text-align: center; 
-  left: 145px;
+  left: 180px;
   color: #fff;
 }
 #hh2{
   position: absolute;
   top: 130px;
   text-align: center;
-  left: 260px;
+  left: 340px;
   color: #fff;
 }
 #hh3{
   position: absolute;
   top: 130px;
   text-align: center;
-  left: 380px;
+  left: 485px;
   color: #fff;
 }
 .swipe{
